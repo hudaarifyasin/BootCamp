@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(242, 237, 240);
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.material-symbols-outlined{
+    margin-top: 10px;
+color: rgb(236, 120, 140);
+}
+hr{
+    border-color:pink ;
+    border-style: dotted;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img{
+    border-radius: 50px;
+}
+img:hover{
+    opacity: 0.5;
+    margin-left: 10px;
+}
+h1{
+    color:rgb(250, 163, 178);
+text-decoration-line:underline;
+margin-top: 50px;
+}
+h2{
+    color: rgb(167, 97, 108);
+}
+.footer{
+   background-color: pink;
+   margin-bottom: 10px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

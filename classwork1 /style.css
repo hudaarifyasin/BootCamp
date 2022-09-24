@@ -1,0 +1,43 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+header{
+    display: block;
+    font-size: 40px;
+    background-color: rgb(198, 5, 5);
+    color: white;
+    padding-left: 20px;
+}
+.nav-contents{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(198, 5, 5);
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+font-size: 32px;
+font-family: serif ;
+}
+p{
+    font-size: 18px;
+}
+li{
+    font-size: 20px;
+    font-family: serif;
+}
+.caption{
+    color: rgb(88, 87, 87);
+}
+#list a{
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
