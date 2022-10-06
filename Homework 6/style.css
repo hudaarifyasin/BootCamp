@@ -118,7 +118,7 @@ header{
 }
 .more{
     float: right;
-    padding-left: 290px;
+    margin-left: 290px;
 }
 .more:hover .submenu2{
     display: inline-flex;

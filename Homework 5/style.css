@@ -32,7 +32,7 @@ body{
     margin: auto;
 }
 .logo{
-    width: 7%;
+    width: 9%;
     margin: 7%;
 }
 .nav{
@@ -191,7 +191,7 @@ h2{
     border-right: 1px solid rgb(151, 149, 149);
     padding-right: 20px ;
 }
-.nav-caption {
+.nav-caption1 {
     font-size: 14px;
     margin-top: 0;
     color: rgb(152, 151, 151);
@@ -209,8 +209,55 @@ h2{
     padding-right: 15px;
     border: 1px solid #bcbbf2;
 }
-
 .submenu1 li{
     list-style: none;
     margin-left: 0;
+}
+.submenu2{
+    display: none;
+}
+.submenu3{
+    display: none;
+}
+.nav-caption2 {
+    font-size: 14px;
+    margin-top: 0;
+    color: rgb(152, 151, 151);
+    list-style: none;
+}
+.nav-caption3 {
+    font-size: 14px;
+    margin-top: 0;
+    color: rgb(152, 151, 151);
+    list-style: none;
+}
+.submenu2 li{
+    list-style: none;
+    margin-left: 0;
+}
+.submenu3 li{
+    list-style: none;
+    margin-left: 0;
+}
+.nav-content2:hover .submenu2{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    border: 1px solid #bcbbf2;
+    text-align: left;
+}
+.nav-content3:hover .submenu3{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    border: 1px solid #bcbbf2;
+    text-align: left;
 }
