@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-pink-playful-abstract-portfolio-memphis-image_593407.jpg);
+    background-position: 0 1000px;
+}
+a{
+    text-decoration: none;
+}
+
+section{
+    max-width: 1100px;
+    margin-top: 300px;
+    text-align: center;
+    margin-left: 150px;
+}
+.image{
+    border: 1px solid rgb(0, 171, 193);
+    background-color: rgb(0, 171, 193);
+    width: 100px;
+    height: 90px;
+    border-radius: 500px;
+    margin-left: 500px;
+}
+
+.btn{
+    border: 1px solid rgba(0, 171, 193 .5);
+    background-color: rgb(0, 171, 193);
+    color: white;
+    width: 20px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: blue;
+}

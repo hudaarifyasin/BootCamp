@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200;300&family=Nunito:wght@200;600;700&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 2.5em;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+/* navbar */
+.navbar{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: #fff;
+} 
+
+.logo{
+    width: 160px;
+    height: inherit;
+    margin: 30px 50px;
+}
+
+.li1{
+   color: #7e7c7c;
+   letter-spacing: 0.3em;
+}
+.auto{
+    letter-spacing: 0.3em;
+}
+img{
+    width: 370px; 
+    height: 270px;
+    position: relative;
+}
+.gallery{
+    margin-top: 15px;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.li1:hover{
+    color: #e4c3c2;
+    cursor: pointer;
+ }
+ .auto:hover{
+     color:#e4c3c2 ;
+     cursor: pointer;
+ }
+ 
+/* footer */
+
+.navfoot{
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.navfoot li:hover{
+    color:#e4c3c2 ;
+    cursor: pointer;
+}
+.icons{
+    margin-left: 40px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.icons:hover{
+    color: #7e7c7c;
+}
+.icons i:hover{
+    color: black;
+}
