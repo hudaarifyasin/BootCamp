@@ -13,7 +13,7 @@ body {
   left: -250px;
   width: 250px;
   height: 100%;
-  background: #042331;
+  background: rgba(0, 0, 0, .4);
   transition: all .5s ease;
 }
 .sidebar header {
@@ -21,7 +21,7 @@ body {
   color: white;
   line-height: 70px;
   text-align: center;
-  background: #063146;
+  background: rgba(0, 0, 0, .4);
   user-select: none;
 }
 .sidebar ul a{
@@ -33,8 +33,8 @@ body {
   color: white;
   padding-left: 40px;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
-  border-top: 1px solid rgba(255,255,255,.1);
+  /* border-bottom: 1px solid black; */
+  border-top: 2px solid rgba(255,255,255,.1);
   transition: .4s;
 }
 ul li:hover a{
@@ -48,7 +48,7 @@ ul li:hover a{
 }
 label #btn,label #cancel{
   position: absolute;
-  background: #042331;
+  background: rgba(0, 0, 0, .4);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -64,8 +64,8 @@ label #cancel{
   z-index: 1111;
   left: -195px;
   top: 17px;
-  font-size: 30px;
-  color: #0a5275;
+  font-size: 20px;
+  color: rgba(0, 0, 0, .4);
   padding: 4px 9px;
   transition: all .5s ease;
 }

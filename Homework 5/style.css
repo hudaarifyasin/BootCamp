@@ -261,3 +261,21 @@ h2{
     border: 1px solid #bcbbf2;
     text-align: left;
 }
+
+
+/* @media (max-width: 768px) {
+    .page{
+        width: 100%;
+        background-color: #bcbbf2;
+    }
+    .navbar{
+       position: fixed;
+       left: 0;
+}
+   img{
+    width: 100%;
+       height: auto;
+       max-width: 100%;
+   }
+   
+} */
