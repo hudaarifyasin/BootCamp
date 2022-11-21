@@ -56,7 +56,8 @@
 
 // function str(word){
 
-//     newString = word.split(" ").sort()
+//     newString = word.split("")
+    //    sortArray = word.sort()
 //     console.log(newString);
 // }
 // str("apple");
